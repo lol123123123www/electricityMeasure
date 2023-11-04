@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Measure Electric</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="title">
+    <h1>Measure Electric</h1>
+</div>
+<div class="vela">
+    <div class="voltagea">
+        <div class="chotu">
+            <h1>Voltage</h1>
+            <img src="1.png" width="25px" onclick="measureVoltage()">
+        </div>
+        <div class="inputa">
+            <div class="aa">
+                <input type="text" id="a" placeholder="Enter work done">
+            </div>
+            <div class="ab">
+                <input type="text" id="b" placeholder="Enter Charge Moved">
+            </div>
+        </div>
+        <div class="resulta">
+            <h1>Potential differece is equal to<input type="text" id="d">.</h1>
+        </div>
+    </div>
+    <div class="coulomb">
+        <div class="chota">
+          <h1>Resistivity</h1>
+          <img src="2.png" width="25px" height="55px" onclick="measureResistivity()">
+        </div>
+        <div class="inputb">
+            <div class="ba">
+                <input type="text" id="e" placeholder="Enter resistance of the conductor">
+            </div>
+            <div class="bb">
+                <input type="text" id="f" placeholder="Enter area of cross section of thr wire">
+            </div>
+            <div class="bc">
+                <input type="text" id="g" placeholder="Enter the length of the wire">
+            </div>
+        </div>
+        <div class="resultb">
+            <h1>Resistivity is equal to<input type="text" id="h">.</h1>
+        </div>
+    </div>
+</div>
+<div class="zela">
+    <div class="ampere">
+        <div class="choti">
+        <h1>Ampere</h1>
+        <img src="3.png" width="25px" height="55px" onclick="measureAmpere()">
+    </div>
+        <div class="inputc" id="i" >
+            <div class="ca">
+                <input type="text" id="j" placeholder="Enter charge moved">
+            </div>
+            <div class="cb">
+                <input type="text" id="k" placeholder="Enter the Time">
+            </div>
+        </div>
+        <div class="resultc">
+            <h1>Electric current is<input type="text" id="m">.</h1>
+        </div>
+    </div>
+    <div class="urmom">
+        <div class="choto">
+          <h1>Resistance</h1>
+          <img src="4.png" width="25px" height="55px" onclick="measureResistance()">
+        </div>
+        <div class="inputd">
+            <div class="da">
+                <input type="text" id="n" placeholder="Enter Potential differece">
+            </div>
+            <div class="db">
+                <input type="text" id="o" placeholder="Enter Current">
+            </div>
+        </div>
+        <div class="resultd">
+            <h1>resistance is equal to<input type="text" id="q" >.</h1>
+        </div>
+    </div>
+</div>   
+<script src="script.js"></script>
+</body>
+</html>

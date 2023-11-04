@@ -1,0 +1,378 @@
+body{
+    background: linear-gradient(140deg, cyan, indigo);
+    margin: 14px;
+}
+
+body input{
+    text-align: center;
+}
+
+body img{
+    cursor: pointer;
+}
+
+.title{
+    height: 100px;
+    width: 100%;
+    margin-left: 30%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    border-bottom: 35px;
+    border-color: black;
+}
+
+.chotu{
+    display: flex;
+}
+
+.vela{
+    display: flex;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.voltagea{
+    height:400px;
+    width: 500px;
+    background-color: rgb(0, 89, 255);
+    border-radius: 14px;
+}
+
+.voltagea h1{
+    margin-left: 186px;
+}
+
+.voltagea img{
+    margin-bottom: 20px;
+    margin-left:20px ;
+}
+
+.inputa{
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.aa{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.aa input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.ab{
+    margin-top: 57px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.ab input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+
+.resulta{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 17px;
+    margin-left: -14px;
+}
+
+.resulta h1{
+   margin-left: 15px;
+}
+
+.resulta input{
+    background: rgb(0, 89, 255);
+    outline: 0;
+    border:0;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.coulomb{
+    height:400px;
+    width: 500px;
+    background-color: rgb(0, 113, 95);
+    border-radius: 14px;
+    margin-left: 316px;
+}
+
+.coulomb h1{
+    padding-left: 200px;
+}
+
+.chota{
+    display: flex;
+}
+
+.inputb{
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.ba{
+    margin-top: 15px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.ba input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 350px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.bb{
+    margin-top: 15px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.bb input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 395px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.choti{
+    display: flex;
+}
+
+.bc{
+    margin-top: 15px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.bc input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 350px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.resultb{
+    display: flex;
+    align-items: center;
+    margin-top: 13px;
+    font-size: 17px;
+    margin-left: -121px;
+}
+
+.resultb h1{
+    text-align: left;
+}
+
+.resultb input{
+    background:rgb(0, 113, 95);
+    outline: 0;
+    border:0;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.choto{
+    display: flex;
+}
+
+.zela{
+    margin-top: 62px;
+    display: flex;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ampere{
+    height:400px;
+    width: 500px;
+    background-color: rgb(32, 1, 111);
+    border-radius: 14px;
+}
+
+.ampere h1{
+    padding-left: 200px;
+}
+
+.inputc{
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.ca{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.ca input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.cb{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.cb input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.resultc{
+    display: flex;
+    align-items: center;
+    margin-top: 42px;
+    font-size: 17px;
+    margin-left: -114px;
+}
+
+.resultc h1{
+    text-align: left;
+}
+
+.resultc input{
+    background:rgb(32, 1, 111);
+    outline: 0;
+    border:0;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.urmom{
+    height:400px;
+    width: 500px;
+    background-color: rgb(32, 49, 103);
+    border-radius: 14px;
+    margin-left: 316px;
+}
+
+.urmom h1{
+    padding-left: 175px;
+}
+
+.inputd{
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.da{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.da input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.db{
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 30px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 14px;
+}
+
+.db input{
+    margin-top: 18px;
+    outline: 0;
+    border: 0;
+    width: 250px;
+    height: 25px;
+    font-size: x-large;
+}
+
+.resultd{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    font-size: 17px;
+    margin-left: -95px;
+}
+
+.resultd h1{
+    text-align: left;
+}
+
+.resultd input{
+    background:  rgb(32, 49, 103);
+    outline: 0;
+    border:0;
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    color: #fff;
+}
+
